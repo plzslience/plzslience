@@ -28,6 +28,8 @@
     [super viewDidLoad];
     //tabBarView
     
+    [self.tabBar removeFromSuperview];
+    
     self.tabBarView = [[LHTabBarView alloc] initWithFrame:CGRectMake(0, kUIScreenHeight -  kUITabBarViewHeight, kUIScreenWidth, kUITabBarViewHeight)];
     self.tabBarView.delegate = self;
     self.tabBarView.backgroundColor = [UIColor blackColor];
@@ -63,6 +65,13 @@
         self.selectedIndex = index - 1;
     }
 }
+
+- (void)tabBarHidden:(BOOL)hidden
+{
+    self.tabBarView.hidden = hidden;
+}
+
+
 - (void)changeVC:(UIButton *)btn
 {
  

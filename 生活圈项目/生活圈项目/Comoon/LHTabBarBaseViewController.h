@@ -10,4 +10,7 @@
 
 @interface LHTabBarBaseViewController : UITabBarController
 
+
+
+- (void)tabBarHidden:(BOOL)hidden;
 @end
