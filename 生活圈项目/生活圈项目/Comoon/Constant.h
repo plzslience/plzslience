@@ -34,6 +34,11 @@ typedef enum {
     LHButtonTypeCorner
 }LHButtonType;
 
+/*******************************************************/
+#define APP_ID  @"1001"
+#define APP_IDENGER @"5bV9JhaMn2GJ5MZe"
 
+#define kBaseURL @"http://www.qd-life.com/"
+#define kURLGETHomeInfo @"?anu=api/1/index/get_index_info"
 
 #endif
