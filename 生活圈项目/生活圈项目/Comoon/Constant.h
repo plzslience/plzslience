@@ -24,10 +24,16 @@
 #define kUIScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kUIScreenHeight [UIScreen mainScreen].bounds.size.height
 
+#define kUITabBarViewHeight 49
+#define kUIPopViewHeight 44
+
 /*******************枚举********************************/
 
 typedef enum {
     LHButtonTypeNormal = 0,
     LHButtonTypeCorner
 }LHButtonType;
+
+
+
 #endif

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4813BC3A1B7A01980092B91E /* LHTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4813BC391B7A01980092B91E /* LHTabBarView.m */; };
+		4813BC3D1B7A03E40092B91E /* LHPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4813BC3C1B7A03E40092B91E /* LHPopView.m */; };
+		4813BC441B7A08C30092B91E /* LHClickItemProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 4813BC431B7A08C30092B91E /* LHClickItemProtocol.h */; };
 		484E14A81B78C04B0052E2E7 /* LHCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484E14A71B78C04B0052E2E7 /* LHCircleViewController.m */; };
 		484E14AF1B78C1050052E2E7 /* LHXMPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484E14AE1B78C1050052E2E7 /* LHXMPPViewController.m */; };
 		484E14B21B78C1170052E2E7 /* LHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484E14B11B78C1170052E2E7 /* LHNewsViewController.m */; };
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4813BC381B7A01980092B91E /* LHTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHTabBarView.h; sourceTree = "<group>"; };
+		4813BC391B7A01980092B91E /* LHTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHTabBarView.m; sourceTree = "<group>"; };
+		4813BC3B1B7A03E40092B91E /* LHPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPopView.h; sourceTree = "<group>"; };
+		4813BC3C1B7A03E40092B91E /* LHPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPopView.m; sourceTree = "<group>"; };
+		4813BC431B7A08C30092B91E /* LHClickItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHClickItemProtocol.h; sourceTree = "<group>"; };
 		484E14A61B78C04B0052E2E7 /* LHCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCircleViewController.h; sourceTree = "<group>"; };
 		484E14A71B78C04B0052E2E7 /* LHCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCircleViewController.m; sourceTree = "<group>"; };
 		484E14AD1B78C1050052E2E7 /* LHXMPPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHXMPPViewController.h; sourceTree = "<group>"; };
@@ -106,6 +114,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4813BC371B7A01780092B91E /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				4813BC381B7A01980092B91E /* LHTabBarView.h */,
+				4813BC391B7A01980092B91E /* LHTabBarView.m */,
+				4813BC3B1B7A03E40092B91E /* LHPopView.h */,
+				4813BC3C1B7A03E40092B91E /* LHPopView.m */,
+				4813BC431B7A08C30092B91E /* LHClickItemProtocol.h */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		484E14A91B78C0D10052E2E7 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +226,7 @@
 		48FFEDCE1B776BDB00FD7347 /* Comoon */ = {
 			isa = PBXGroup;
 			children = (
+				4813BC371B7A01780092B91E /* Tabbar */,
 				48FFEDD91B776EB100FD7347 /* Constant.h */,
 				48FFEDF71B77B66100FD7347 /* LHFactory.h */,
 				48FFEDF81B77B66100FD7347 /* LHFactory.m */,
@@ -427,6 +448,8 @@
 			files = (
 				48FFEDB11B7769D400FD7347 /* ViewController.m in Sources */,
 				484E14B81B78C1440052E2E7 /* LHShakeViewController.m in Sources */,
+				4813BC3A1B7A01980092B91E /* LHTabBarView.m in Sources */,
+				4813BC441B7A08C30092B91E /* LHClickItemProtocol.h in Sources */,
 				48FFEDAE1B7769D400FD7347 /* AppDelegate.m in Sources */,
 				484E14A81B78C04B0052E2E7 /* LHCircleViewController.m in Sources */,
 				48FFEDF01B77A55100FD7347 /* LHNavBaseViewController.m in Sources */,
@@ -436,6 +459,7 @@
 				48FFEDE91B777A0000FD7347 /* README.mdown in Sources */,
 				48FFEDEA1B777A0000FD7347 /* UIView+Toast.m in Sources */,
 				484E14AF1B78C1050052E2E7 /* LHXMPPViewController.m in Sources */,
+				4813BC3D1B7A03E40092B91E /* LHPopView.m in Sources */,
 				48FFEDF91B77B66100FD7347 /* LHFactory.m in Sources */,
 				48FFEDAB1B7769D400FD7347 /* main.m in Sources */,
 				48FFEDDE1B7774A300FD7347 /* LHGuideViewController.m in Sources */,
